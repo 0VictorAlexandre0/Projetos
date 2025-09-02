@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Filmes</title>
+</head>
+<body>
+    <h1>Bem-vindo ao seu catálogo de filmes!</h1>
+    <h2>Adicione um filme:</h2>
+
+    <form id="formulario_filme">
+    <input type="text" id="titulo" placeholder="Título" required> <br>
+
+    <input type="text" id="diretor" placeholder="Diretor" required> <br>
+
+    <input type="text" id="genero" placeholder="Gênero" required> <br>
+
+    <input type="number" id="ano_lancamento" placeholder="Ano de Lançamento" required> <br>
+
+    <input type="number" id="nota" placeholder="Nota (0-10)" min="0" max="10" required> <br>
+
+    <input type="url" id="poster" placeholder="URL do pôster"> <br>
+
+    <textarea id="comentario" placeholder="Comentários / Opinião pessoal"></textarea> <br>
+
+    <select id="area_status">
+        <option value="assistido">Assistido</option>
+        <option value="quero_assistir">Quero assistir</option>
+        <option value="favorito">Absolute cinema!!!</option>
+    </select> <br><br>
+
+    <button type="submit">Adicionar filme</button>
+    </form>
+</body>
+</html>
